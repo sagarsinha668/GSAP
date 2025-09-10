@@ -1,0 +1,67 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family:'Courier New';
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+ 
+    background-image: url(https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?_gl=1*sg4isl*_ga*MTYxODkzMjk1Ni4xNzU3NDM3MDU5*_ga_8JE65Q40S6*czE3NTc0MzcwNTkkbzEkZzEkdDE3NTc0MzcxMDIkajE3JGwwJGgw);
+    background-size: cover;
+    /* background-position: center; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: rgb(255, 255, 255);
+}
+nav h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+nav i {
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+#full{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(185, 223, 203, 0.526);
+    position: absolute;
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(20px);
+    padding: 100px 60px;
+}
+#full h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+#full i {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: wheat;
+    padding: 2px;
+    border-radius:50%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
