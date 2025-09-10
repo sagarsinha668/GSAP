@@ -4,13 +4,13 @@ let tl = gsap.timeline()
 
 tl.to("#full",{
     right:0,
-    duration:1
+    duration:.7
 })
 tl.from("#full h4",{
     x:150,
-    stagger:0.25,
+    stagger:0.2,
     opacity:0,
-    duration:.9
+    duration:.6
 })
 
 tl.from("#full i",{
