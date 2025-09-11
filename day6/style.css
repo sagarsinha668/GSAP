@@ -1,0 +1,28 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family:'Courier New';
+background-color: black;
+color: white;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+}
