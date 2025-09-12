@@ -1,0 +1,36 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+    Width:100%;
+    Height:100%;
+}
+#page1,#page2,#page3{
+    background-color: #111;
+    height: 100vh;
+    width: 100%;    
+}
+#move{
+    color: rgb(0, 0, 0);
+    background-color:#D8FF04;
+    display: flex;
+    overflow: hidden;
+}
+#marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 3vh 5vh;
+    
+}
+#marque img{
+    height: 4vw;
+}
+#marque h1{
+    font-size: 5vw;
+}
